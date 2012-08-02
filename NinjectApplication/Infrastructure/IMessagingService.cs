@@ -2,6 +2,6 @@
 {
 	public interface IMessagingService<T> where T : class
 	{
-		string HelloWorldMessage();
+		string GetMessage();
 	}
 }

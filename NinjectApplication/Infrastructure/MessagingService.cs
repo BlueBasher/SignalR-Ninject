@@ -4,9 +4,9 @@
 	{
 		#region IMessagingService<T> Members
 
-		public string HelloWorldMessage()
+		public string GetMessage()
 		{
-			return "Hello World";
+			return "From " + typeof(T).ToString();
 		}
 
 		#endregion

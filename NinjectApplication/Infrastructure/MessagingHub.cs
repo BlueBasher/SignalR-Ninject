@@ -13,6 +13,7 @@ namespace NinjectApplication.Infrastructure
 
 		public void SendMessage(string message)
 		{
+			Clients.addMessage(_messagingService.GetMessage() + ": " + message);
 		}
 	}
 }
